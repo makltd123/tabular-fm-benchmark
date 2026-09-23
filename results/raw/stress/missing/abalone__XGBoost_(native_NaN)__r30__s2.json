@@ -1,0 +1,31 @@
+{
+  "model": "XGBoost (native NaN)",
+  "seed": 2,
+  "n_train": 3341,
+  "n_test": 836,
+  "n_features": 8,
+  "best_params": {
+    "colsample_bytree": 0.9681240215399383,
+    "learning_rate": 0.04841768958546502,
+    "max_depth": 6,
+    "min_child_weight": 1.0311826772143968,
+    "n_estimators": 119,
+    "reg_alpha": 0.0018997164682928672,
+    "reg_lambda": 0.03352348434846972,
+    "subsample": 0.757429581490487
+  },
+  "status": "ok",
+  "fit_time_s": 0.33208610001020133,
+  "predict_time_s": 0.007495400030165911,
+  "total_time_s": 0.33958150004036725,
+  "metrics": {
+    "rmse": 2.4209479569034826,
+    "mae": 1.6876492346302745,
+    "r2": 0.5222888385311126
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "missing",
+  "level": 0.3,
+  "missing_share_train": 0.301556420233463
+}

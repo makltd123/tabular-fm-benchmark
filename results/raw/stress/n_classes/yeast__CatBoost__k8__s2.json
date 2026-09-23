@@ -1,0 +1,40 @@
+{
+  "model": "CatBoost",
+  "seed": 2,
+  "n_train": 1167,
+  "n_test": 292,
+  "n_features": 8,
+  "best_params": {
+    "bagging_temperature": 0.28786881587000435,
+    "depth": 5,
+    "iterations": 231,
+    "l2_leaf_reg": 1.5195921373935113,
+    "learning_rate": 0.05371875290916399,
+    "random_strength": 1.3537244049515071
+  },
+  "status": "ok",
+  "fit_time_s": 0.5592447000090033,
+  "predict_time_s": 0.001704599941149354,
+  "total_time_s": 0.5609492999501526,
+  "metrics": {
+    "accuracy": 0.5787671232876712,
+    "f1": 0.5459458998002877,
+    "f1_macro": 0.5459458998002877,
+    "roc_auc": 0.876994066458806,
+    "log_loss": 1.0089922930248043
+  },
+  "dataset": "yeast",
+  "task": "multiclass",
+  "experiment": "n_classes",
+  "level": 8,
+  "classes": [
+    "CYT",
+    "EXC",
+    "ME1",
+    "ME2",
+    "ME3",
+    "MIT",
+    "NUC",
+    "VAC"
+  ]
+}

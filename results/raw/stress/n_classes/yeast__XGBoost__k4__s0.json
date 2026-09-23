@@ -1,0 +1,38 @@
+{
+  "model": "XGBoost",
+  "seed": 0,
+  "n_train": 1039,
+  "n_test": 260,
+  "n_features": 8,
+  "best_params": {
+    "colsample_bytree": 0.8117550505659341,
+    "learning_rate": 0.03157026534684057,
+    "max_depth": 7,
+    "min_child_weight": 7.143391997714796,
+    "n_estimators": 405,
+    "reg_alpha": 0.2162900027103643,
+    "reg_lambda": 7.058512048254172,
+    "subsample": 0.8312634334750222
+  },
+  "status": "ok",
+  "fit_time_s": 1.4443710000487044,
+  "predict_time_s": 0.010242599993944168,
+  "total_time_s": 1.4546136000426486,
+  "metrics": {
+    "accuracy": 0.6538461538461539,
+    "f1": 0.6785645837282281,
+    "f1_macro": 0.6785645837282281,
+    "roc_auc": 0.857148010440598,
+    "log_loss": 0.8370690941810608
+  },
+  "dataset": "yeast",
+  "task": "multiclass",
+  "experiment": "n_classes",
+  "level": 4,
+  "classes": [
+    "CYT",
+    "ME3",
+    "MIT",
+    "NUC"
+  ]
+}

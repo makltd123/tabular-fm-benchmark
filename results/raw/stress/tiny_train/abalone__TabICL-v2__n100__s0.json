@@ -1,0 +1,20 @@
+{
+  "model": "TabICL-v2",
+  "seed": 0,
+  "n_train": 100,
+  "n_test": 836,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.6969231999246404,
+  "predict_time_s": 6.419282400049269,
+  "total_time_s": 7.11620559997391,
+  "metrics": {
+    "rmse": 2.2714690055088904,
+    "mae": 1.5853582649139697,
+    "r2": 0.5249149507474313
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "tiny_train",
+  "level": 100
+}

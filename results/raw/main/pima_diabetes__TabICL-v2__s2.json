@@ -1,0 +1,22 @@
+{
+  "model": "TabICL-v2",
+  "seed": 2,
+  "n_train": 614,
+  "n_test": 154,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.5959643999813125,
+  "predict_time_s": 6.619716200046241,
+  "total_time_s": 7.215680600027554,
+  "metrics": {
+    "accuracy": 0.7467532467532467,
+    "f1": 0.5894736842105263,
+    "f1_macro": 0.7031875463306152,
+    "roc_auc": 0.8159259259259259,
+    "pr_auc": 0.6863664992537704,
+    "log_loss": 0.5014387369155884
+  },
+  "dataset": "pima_diabetes",
+  "task": "binary",
+  "experiment": "main"
+}

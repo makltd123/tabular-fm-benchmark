@@ -1,0 +1,21 @@
+{
+  "model": "TabICL-v2",
+  "seed": 0,
+  "n_train": 3341,
+  "n_test": 836,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.5719018999952823,
+  "predict_time_s": 44.787471499992535,
+  "total_time_s": 45.35937339998782,
+  "metrics": {
+    "rmse": 2.1702121422600804,
+    "mae": 1.5293578083435315,
+    "r2": 0.5663272726999062
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "missing",
+  "level": 0.15,
+  "missing_share_train": 0.15246183777312183
+}

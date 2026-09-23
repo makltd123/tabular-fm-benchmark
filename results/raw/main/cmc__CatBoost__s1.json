@@ -1,0 +1,31 @@
+{
+  "model": "CatBoost",
+  "seed": 1,
+  "n_train": 1178,
+  "n_test": 295,
+  "n_features": 9,
+  "best_params": {
+    "bagging_temperature": 0.5736794866722859,
+    "depth": 5,
+    "iterations": 370,
+    "l2_leaf_reg": 2.1215091136922735,
+    "learning_rate": 0.06005217275942704,
+    "random_strength": 5.914039197136321
+  },
+  "cv_best_score": -0.897860373699853,
+  "refit_time_s": 8.68374490737915,
+  "status": "ok",
+  "fit_time_s": 2107.894218100002,
+  "predict_time_s": 0.04216250008903444,
+  "total_time_s": 2107.936380600091,
+  "metrics": {
+    "accuracy": 0.5864406779661017,
+    "f1": 0.555892430055524,
+    "f1_macro": 0.555892430055524,
+    "roc_auc": 0.7651555213554442,
+    "log_loss": 0.8690209613556943
+  },
+  "dataset": "cmc",
+  "task": "multiclass",
+  "experiment": "main"
+}

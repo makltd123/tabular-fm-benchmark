@@ -1,0 +1,22 @@
+{
+  "model": "TabICL-v2",
+  "seed": 2,
+  "n_train": 800,
+  "n_test": 200,
+  "n_features": 20,
+  "status": "ok",
+  "fit_time_s": 0.7245462000137195,
+  "predict_time_s": 10.615362799959257,
+  "total_time_s": 11.339908999972977,
+  "metrics": {
+    "accuracy": 0.715,
+    "f1": 0.45714285714285713,
+    "f1_macro": 0.6319612590799032,
+    "roc_auc": 0.733095238095238,
+    "pr_auc": 0.5566105822282622,
+    "log_loss": 0.5451235175132751
+  },
+  "dataset": "credit_g",
+  "task": "binary",
+  "experiment": "main"
+}

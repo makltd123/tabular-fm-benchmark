@@ -1,0 +1,32 @@
+{
+  "model": "CatBoost",
+  "seed": 2,
+  "n_train": 2027,
+  "n_test": 507,
+  "n_features": 72,
+  "best_params": {
+    "bagging_temperature": 0.8522810337286523,
+    "depth": 7,
+    "iterations": 296,
+    "l2_leaf_reg": 7.7538976471991266,
+    "learning_rate": 0.031959854042241095,
+    "random_strength": 1.3623486171660049
+  },
+  "cv_best_score": -0.1486250183187334,
+  "refit_time_s": 4.357365608215332,
+  "status": "ok",
+  "fit_time_s": 341.864148399909,
+  "predict_time_s": 0.006869400036521256,
+  "total_time_s": 341.87101779994555,
+  "metrics": {
+    "accuracy": 0.9428007889546351,
+    "f1": 0.21621621621621623,
+    "f1_macro": 0.5932667570333896,
+    "roc_auc": 0.9394736842105263,
+    "pr_auc": 0.5180703569597225,
+    "log_loss": 0.14349034905335173
+  },
+  "dataset": "ozone_level_8hr",
+  "task": "binary",
+  "experiment": "main"
+}

@@ -1,0 +1,27 @@
+{
+  "model": "RandomForest",
+  "seed": 0,
+  "n_train": 713,
+  "n_test": 179,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.2023493000306189,
+  "predict_time_s": 0.036842299974523485,
+  "total_time_s": 0.2391916000051424,
+  "metrics": {
+    "accuracy": 0.6927374301675978,
+    "f1": 0.6745562130177515,
+    "f1_macro": 0.6917754610062302,
+    "roc_auc": 0.7324956239059766,
+    "pr_auc": 0.6861228423478116,
+    "log_loss": 0.6076494096680032
+  },
+  "dataset": "yeast",
+  "task": "binary",
+  "experiment": "n_classes",
+  "level": 2,
+  "classes": [
+    "CYT",
+    "NUC"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 1,
+  "n_train": 1178,
+  "n_test": 295,
+  "n_features": 9,
+  "status": "ok",
+  "fit_time_s": 0.24635739997029305,
+  "predict_time_s": 23.1754563000286,
+  "total_time_s": 23.421813699998893,
+  "metrics": {
+    "accuracy": 0.5796610169491525,
+    "f1": 0.5621073450472592,
+    "f1_macro": 0.5621073450472592,
+    "roc_auc": 0.7727698971427178,
+    "log_loss": 0.8618166446685791
+  },
+  "dataset": "cmc",
+  "task": "multiclass",
+  "experiment": "missing",
+  "level": 0.05,
+  "missing_share_train": 0.051122429730239574
+}

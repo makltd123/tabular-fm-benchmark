@@ -1,0 +1,21 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 0,
+  "n_train": 3341,
+  "n_test": 836,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.5594211000716314,
+  "predict_time_s": 132.2765928999288,
+  "total_time_s": 132.83601400000043,
+  "metrics": {
+    "rmse": 2.152975022035608,
+    "mae": 1.477990868844484,
+    "r2": 0.5731888898382741
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "missing",
+  "level": 0.05,
+  "missing_share_train": 0.05155642023346303
+}

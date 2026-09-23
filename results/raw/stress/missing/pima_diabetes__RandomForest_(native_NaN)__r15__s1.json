@@ -1,0 +1,24 @@
+{
+  "model": "RandomForest (native NaN)",
+  "seed": 1,
+  "n_train": 614,
+  "n_test": 154,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.163447399972938,
+  "predict_time_s": 0.025066500063985586,
+  "total_time_s": 0.1885139000369236,
+  "metrics": {
+    "accuracy": 0.7337662337662337,
+    "f1": 0.5773195876288659,
+    "f1_macro": 0.6915033957101675,
+    "roc_auc": 0.795,
+    "pr_auc": 0.6414669285406422,
+    "log_loss": 0.5145528102095469
+  },
+  "dataset": "pima_diabetes",
+  "task": "binary",
+  "experiment": "missing",
+  "level": 0.15,
+  "missing_share_train": 0.15268729641693812
+}

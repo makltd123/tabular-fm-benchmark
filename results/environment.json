@@ -1,0 +1,31 @@
+{
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "cpu_count_logical": 4,
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "xgboost": "3.4.1",
+    "catboost": "1.2.10",
+    "torch": "2.14.0+cpu",
+    "tabpfn": "9.0.0",
+    "tabicl": "2.2.0",
+    "openml": "0.15.1",
+    "matplotlib": "3.11.2",
+    "huggingface_hub": "1.32.0"
+  },
+  "ram_gb": 7.8,
+  "cpu_count_physical": 2,
+  "torch_threads": 2,
+  "cuda_available": false,
+  "device": "cpu",
+  "checkpoints": {
+    "TabPFN-v2 classifier": "C:\\Users\\maklt\\AppData\\Roaming\\tabpfn\\tabpfn-v2-classifier-finetuned-zk73skhh.ckpt",
+    "TabPFN-v2 regressor": "C:\\Users\\maklt\\AppData\\Roaming\\tabpfn\\tabpfn-v2-regressor.ckpt",
+    "TabICL-v2 classifier": "tabicl-classifier-v2-20260212.ckpt",
+    "TabICL-v2 regressor": "tabicl-regressor-v2-20260212.ckpt"
+  }
+}

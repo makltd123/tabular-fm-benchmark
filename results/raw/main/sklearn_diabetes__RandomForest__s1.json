@@ -1,0 +1,19 @@
+{
+  "model": "RandomForest",
+  "seed": 1,
+  "n_train": 353,
+  "n_test": 89,
+  "n_features": 10,
+  "status": "ok",
+  "fit_time_s": 0.12776689999736845,
+  "predict_time_s": 0.025941699976101518,
+  "total_time_s": 0.15370859997346997,
+  "metrics": {
+    "rmse": 61.69239619527359,
+    "mae": 47.29280898876405,
+    "r2": 0.28579978660424454
+  },
+  "dataset": "sklearn_diabetes",
+  "task": "regression",
+  "experiment": "main"
+}

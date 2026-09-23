@@ -1,0 +1,22 @@
+{
+  "model": "CatBoost",
+  "seed": 0,
+  "n_train": 880,
+  "n_test": 220,
+  "n_features": 16,
+  "status": "ok",
+  "fit_time_s": 4.0265593000222,
+  "predict_time_s": 0.005027599981985986,
+  "total_time_s": 4.031586900004186,
+  "metrics": {
+    "accuracy": 0.9,
+    "f1": 0.9005105163417849,
+    "f1_macro": 0.9005105163417849,
+    "roc_auc": 0.9927045454545453,
+    "log_loss": 0.33565937629515125
+  },
+  "dataset": "letter",
+  "task": "multiclass",
+  "experiment": "letter_probe",
+  "level": 11
+}

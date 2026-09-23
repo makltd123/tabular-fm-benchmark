@@ -1,0 +1,22 @@
+{
+  "model": "RandomForest",
+  "seed": 2,
+  "n_train": 2027,
+  "n_test": 507,
+  "n_features": 72,
+  "status": "ok",
+  "fit_time_s": 0.33384159998968244,
+  "predict_time_s": 0.03881649998947978,
+  "total_time_s": 0.3726580999791622,
+  "metrics": {
+    "accuracy": 0.9388560157790927,
+    "f1": 0.16216216216216217,
+    "f1_macro": 0.5652161885529337,
+    "roc_auc": 0.8967434210526316,
+    "pr_auc": 0.4336313768826708,
+    "log_loss": 0.21675045672841406
+  },
+  "dataset": "ozone_level_8hr",
+  "task": "binary",
+  "experiment": "main"
+}

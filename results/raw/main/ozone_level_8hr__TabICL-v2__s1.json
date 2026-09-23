@@ -1,0 +1,22 @@
+{
+  "model": "TabICL-v2",
+  "seed": 1,
+  "n_train": 2027,
+  "n_test": 507,
+  "n_features": 72,
+  "status": "ok",
+  "fit_time_s": 1.356708199949935,
+  "predict_time_s": 70.65874480002094,
+  "total_time_s": 72.01545299997088,
+  "metrics": {
+    "accuracy": 0.9467455621301775,
+    "f1": 0.4489795918367347,
+    "f1_macro": 0.7105001586126679,
+    "roc_auc": 0.9434868421052631,
+    "pr_auc": 0.5812442546639648,
+    "log_loss": 0.12945984303951263
+  },
+  "dataset": "ozone_level_8hr",
+  "task": "binary",
+  "experiment": "main"
+}

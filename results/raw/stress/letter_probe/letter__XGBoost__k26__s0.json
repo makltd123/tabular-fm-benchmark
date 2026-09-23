@@ -1,0 +1,22 @@
+{
+  "model": "XGBoost",
+  "seed": 0,
+  "n_train": 2080,
+  "n_test": 520,
+  "n_features": 16,
+  "status": "ok",
+  "fit_time_s": 1.0654482999816537,
+  "predict_time_s": 0.0137449000030756,
+  "total_time_s": 1.0791931999847293,
+  "metrics": {
+    "accuracy": 0.8673076923076923,
+    "f1": 0.8673548923926686,
+    "f1_macro": 0.8673548923926686,
+    "roc_auc": 0.9956615384615385,
+    "log_loss": 0.41185614466667175
+  },
+  "dataset": "letter",
+  "task": "multiclass",
+  "experiment": "letter_probe",
+  "level": 26
+}

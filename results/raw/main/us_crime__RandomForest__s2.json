@@ -1,0 +1,19 @@
+{
+  "model": "RandomForest",
+  "seed": 2,
+  "n_train": 1595,
+  "n_test": 399,
+  "n_features": 122,
+  "status": "ok",
+  "fit_time_s": 2.1365886999992654,
+  "predict_time_s": 0.036731300060637295,
+  "total_time_s": 2.1733200000599027,
+  "metrics": {
+    "rmse": 0.13889120343267763,
+    "mae": 0.09423433583959899,
+    "r2": 0.6331663947213675
+  },
+  "dataset": "us_crime",
+  "task": "regression",
+  "experiment": "main"
+}

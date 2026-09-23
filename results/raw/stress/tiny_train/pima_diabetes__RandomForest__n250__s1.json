@@ -1,0 +1,23 @@
+{
+  "model": "RandomForest",
+  "seed": 1,
+  "n_train": 250,
+  "n_test": 154,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.14390390005428344,
+  "predict_time_s": 0.025572799961082637,
+  "total_time_s": 0.16947670001536608,
+  "metrics": {
+    "accuracy": 0.7467532467532467,
+    "f1": 0.6060606060606061,
+    "f1_macro": 0.7097288676236044,
+    "roc_auc": 0.8048148148148149,
+    "pr_auc": 0.6526485658207741,
+    "log_loss": 0.5119104572308957
+  },
+  "dataset": "pima_diabetes",
+  "task": "binary",
+  "experiment": "tiny_train",
+  "level": 250
+}

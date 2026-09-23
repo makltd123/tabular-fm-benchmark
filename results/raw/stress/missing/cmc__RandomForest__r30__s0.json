@@ -1,0 +1,23 @@
+{
+  "model": "RandomForest",
+  "seed": 0,
+  "n_train": 1178,
+  "n_test": 295,
+  "n_features": 9,
+  "status": "ok",
+  "fit_time_s": 0.19020069995895028,
+  "predict_time_s": 0.02535320003516972,
+  "total_time_s": 0.21555389999412,
+  "metrics": {
+    "accuracy": 0.4610169491525424,
+    "f1": 0.42831913955743633,
+    "f1_macro": 0.42831913955743633,
+    "roc_auc": 0.6512617754691781,
+    "log_loss": 1.4340086318261294
+  },
+  "dataset": "cmc",
+  "task": "multiclass",
+  "experiment": "missing",
+  "level": 0.3,
+  "missing_share_train": 0.2973967176004527
+}

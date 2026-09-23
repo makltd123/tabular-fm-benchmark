@@ -1,0 +1,31 @@
+{
+  "model": "XGBoost",
+  "seed": 0,
+  "n_train": 1595,
+  "n_test": 399,
+  "n_features": 122,
+  "best_params": {
+    "colsample_bytree": 0.7368002096733287,
+    "learning_rate": 0.018846706388671832,
+    "max_depth": 4,
+    "min_child_weight": 3.921617796346585,
+    "n_estimators": 902,
+    "reg_alpha": 0.0025448050634013235,
+    "reg_lambda": 0.09384756816024661,
+    "subsample": 0.5748374335918416
+  },
+  "cv_best_score": -0.1312567882696665,
+  "refit_time_s": 2.238511085510254,
+  "status": "ok",
+  "fit_time_s": 115.60720580001362,
+  "predict_time_s": 0.013429000042378902,
+  "total_time_s": 115.620634800056,
+  "metrics": {
+    "rmse": 0.14362872382329514,
+    "mae": 0.09892040281264779,
+    "r2": 0.6530043218628947
+  },
+  "dataset": "us_crime",
+  "task": "regression",
+  "experiment": "main"
+}

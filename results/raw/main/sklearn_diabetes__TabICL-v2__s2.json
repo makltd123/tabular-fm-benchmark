@@ -1,0 +1,19 @@
+{
+  "model": "TabICL-v2",
+  "seed": 2,
+  "n_train": 353,
+  "n_test": 89,
+  "n_features": 10,
+  "status": "ok",
+  "fit_time_s": 0.5969476000173017,
+  "predict_time_s": 4.689760399982333,
+  "total_time_s": 5.286707999999635,
+  "metrics": {
+    "rmse": 54.98611496628573,
+    "mae": 45.43817155816582,
+    "r2": 0.4527812396515736
+  },
+  "dataset": "sklearn_diabetes",
+  "task": "regression",
+  "experiment": "main"
+}

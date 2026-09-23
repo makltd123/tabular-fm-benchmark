@@ -1,0 +1,19 @@
+{
+  "model": "TabICL-v2",
+  "seed": 1,
+  "n_train": 1595,
+  "n_test": 399,
+  "n_features": 122,
+  "status": "ok",
+  "fit_time_s": 1.892325200024061,
+  "predict_time_s": 111.47283699992113,
+  "total_time_s": 113.36516219994519,
+  "metrics": {
+    "rmse": 0.13354967905780782,
+    "mae": 0.08340292882706438,
+    "r2": 0.651490839110998
+  },
+  "dataset": "us_crime",
+  "task": "regression",
+  "experiment": "main"
+}

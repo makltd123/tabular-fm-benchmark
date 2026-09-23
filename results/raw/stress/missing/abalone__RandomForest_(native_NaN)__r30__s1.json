@@ -1,0 +1,21 @@
+{
+  "model": "RandomForest (native NaN)",
+  "seed": 1,
+  "n_train": 3341,
+  "n_test": 836,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.46283089998178184,
+  "predict_time_s": 0.025513599975965917,
+  "total_time_s": 0.48834449995774776,
+  "metrics": {
+    "rmse": 2.340636287351171,
+    "mae": 1.66311004784689,
+    "r2": 0.44047240939356547
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "missing",
+  "level": 0.3,
+  "missing_share_train": 0.30365160131697094
+}

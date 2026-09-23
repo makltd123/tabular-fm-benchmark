@@ -1,0 +1,20 @@
+{
+  "model": "RandomForest",
+  "seed": 2,
+  "n_train": 250,
+  "n_test": 836,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.12187130004167557,
+  "predict_time_s": 0.02533560001756996,
+  "total_time_s": 0.14720690005924553,
+  "metrics": {
+    "rmse": 2.410709235710262,
+    "mae": 1.6495574162679425,
+    "r2": 0.5263209851139687
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "tiny_train",
+  "level": 250
+}

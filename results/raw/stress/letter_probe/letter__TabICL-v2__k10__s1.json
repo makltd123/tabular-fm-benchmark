@@ -1,0 +1,22 @@
+{
+  "model": "TabICL-v2",
+  "seed": 1,
+  "n_train": 800,
+  "n_test": 200,
+  "n_features": 16,
+  "status": "ok",
+  "fit_time_s": 0.7671810999745503,
+  "predict_time_s": 9.806156000006013,
+  "total_time_s": 10.573337099980563,
+  "metrics": {
+    "accuracy": 0.97,
+    "f1": 0.9699088937971526,
+    "f1_macro": 0.9699088937971526,
+    "roc_auc": 0.9995277777777778,
+    "log_loss": 0.08547737449407578
+  },
+  "dataset": "letter",
+  "task": "multiclass",
+  "experiment": "letter_probe",
+  "level": 10
+}

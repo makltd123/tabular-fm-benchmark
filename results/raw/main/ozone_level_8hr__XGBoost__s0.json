@@ -1,0 +1,34 @@
+{
+  "model": "XGBoost",
+  "seed": 0,
+  "n_train": 2027,
+  "n_test": 507,
+  "n_features": 72,
+  "best_params": {
+    "colsample_bytree": 0.6111606941257939,
+    "learning_rate": 0.037229833051969315,
+    "max_depth": 6,
+    "min_child_weight": 7.710253564584053,
+    "n_estimators": 542,
+    "reg_alpha": 0.0690542437842352,
+    "reg_lambda": 5.093845279011196,
+    "subsample": 0.5496401751794869
+  },
+  "cv_best_score": -0.14900813003381094,
+  "refit_time_s": 0.9337058067321777,
+  "status": "ok",
+  "fit_time_s": 60.3284862000728,
+  "predict_time_s": 0.00818429992068559,
+  "total_time_s": 60.33667049999349,
+  "metrics": {
+    "accuracy": 0.9487179487179487,
+    "f1": 0.5,
+    "f1_macro": 0.7364864864864865,
+    "roc_auc": 0.9248026315789474,
+    "pr_auc": 0.5631070915112935,
+    "log_loss": 0.13627134263515472
+  },
+  "dataset": "ozone_level_8hr",
+  "task": "binary",
+  "experiment": "main"
+}

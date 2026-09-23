@@ -1,0 +1,23 @@
+{
+  "model": "RandomForest (native NaN)",
+  "seed": 2,
+  "n_train": 1178,
+  "n_test": 295,
+  "n_features": 9,
+  "status": "ok",
+  "fit_time_s": 0.20629470003768802,
+  "predict_time_s": 0.02523020002990961,
+  "total_time_s": 0.23152490006759763,
+  "metrics": {
+    "accuracy": 0.46440677966101696,
+    "f1": 0.440891675374434,
+    "f1_macro": 0.440891675374434,
+    "roc_auc": 0.6426155999150821,
+    "log_loss": 1.039398114143338
+  },
+  "dataset": "cmc",
+  "task": "multiclass",
+  "experiment": "missing",
+  "level": 0.3,
+  "missing_share_train": 0.29730239577438217
+}

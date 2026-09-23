@@ -1,0 +1,32 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 1,
+  "n_train": 1167,
+  "n_test": 292,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.26888119999784976,
+  "predict_time_s": 25.135912099969573,
+  "total_time_s": 25.404793299967423,
+  "metrics": {
+    "accuracy": 0.6335616438356164,
+    "f1": 0.5616510015047209,
+    "f1_macro": 0.5616510015047209,
+    "roc_auc": 0.8883910900964882,
+    "log_loss": 0.9303744435310364
+  },
+  "dataset": "yeast",
+  "task": "multiclass",
+  "experiment": "n_classes",
+  "level": 8,
+  "classes": [
+    "CYT",
+    "EXC",
+    "ME1",
+    "ME2",
+    "ME3",
+    "MIT",
+    "NUC",
+    "VAC"
+  ]
+}

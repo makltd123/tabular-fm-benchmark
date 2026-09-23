@@ -1,0 +1,19 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 2,
+  "n_train": 3341,
+  "n_test": 836,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.5146393999457359,
+  "predict_time_s": 128.90822740003932,
+  "total_time_s": 129.42286679998506,
+  "metrics": {
+    "rmse": 2.2535261443294097,
+    "mae": 1.5204341246180557,
+    "r2": 0.5860768816046614
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "main"
+}

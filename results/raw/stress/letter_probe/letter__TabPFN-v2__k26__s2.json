@@ -1,0 +1,14 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 2,
+  "n_train": 2080,
+  "n_test": 520,
+  "n_features": 16,
+  "status": "error",
+  "error": "TabPFNValidationError: Number of classes `26` exceeds the maximum number of classes `10` officially supported by TabPFN.",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\maklt\\OneDrive\\Рабочий стол\\mlmlm\\src\\common.py\", line 414, in run_model\n    fitted.fit(Xtr_m, ytr)\n    ~~~~~~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\maklt\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\contextlib.py\", line 85, in inner\n    return func(*args, **kwds)\n  File \"C:\\Users\\maklt\\.venvs\\tabbench\\Lib\\site-packages\\tabpfn\\classifier.py\", line 929, in fit\n    ensemble_configs, X, y = self._initialize_dataset_preprocessing(\n                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        X=X, y=y, random_state=static_seed\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\maklt\\.venvs\\tabbench\\Lib\\site-packages\\tabpfn\\classifier.py\", line 836, in _initialize_dataset_preprocessing\n    y, label_metadata = self.label_encoder_.fit_transform(\n                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        y=y, max_num_classes=self.inference_config_.MAX_NUMBER_OF_CLASSES\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\maklt\\.venvs\\tabbench\\Lib\\site-packages\\tabpfn\\preprocessing\\label_encoder.py\", line 57, in fit_transform\n    validate_num_classes(\n    ~~~~~~~~~~~~~~~~~~~~^\n        num_classes=n_classes,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        max_num_classes=max_num_classes,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\maklt\\.venvs\\tabbench\\Lib\\site-packages\\tabpfn\\validation.py\", line 320, in validate_num_classes\n    raise TabPFNValidationError(\n    ...<2 lines>...\n    )\ntabpfn.errors.TabPFNValidationError: Number of classes `26` exceeds the maximum number of classes `10` officially supported by TabPFN.\n",
+  "dataset": "letter",
+  "task": "multiclass",
+  "experiment": "letter_probe",
+  "level": 26
+}

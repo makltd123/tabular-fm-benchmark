@@ -1,0 +1,29 @@
+{
+  "model": "CatBoost",
+  "seed": 1,
+  "n_train": 1595,
+  "n_test": 399,
+  "n_features": 122,
+  "best_params": {
+    "bagging_temperature": 0.6704675101784022,
+    "depth": 5,
+    "iterations": 953,
+    "l2_leaf_reg": 1.3816146784866807,
+    "learning_rate": 0.0196164276181429,
+    "random_strength": 3.9947456945609163
+  },
+  "cv_best_score": -0.13363160351998726,
+  "refit_time_s": 4.147407531738281,
+  "status": "ok",
+  "fit_time_s": 305.7150007999735,
+  "predict_time_s": 0.016633200109936297,
+  "total_time_s": 305.73163400008343,
+  "metrics": {
+    "rmse": 0.1352948985969608,
+    "mae": 0.08664144990731742,
+    "r2": 0.6423227283952045
+  },
+  "dataset": "us_crime",
+  "task": "regression",
+  "experiment": "main"
+}

@@ -1,0 +1,19 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 2,
+  "n_train": 353,
+  "n_test": 89,
+  "n_features": 10,
+  "status": "ok",
+  "fit_time_s": 0.37781649990938604,
+  "predict_time_s": 8.38429840002209,
+  "total_time_s": 8.762114899931476,
+  "metrics": {
+    "rmse": 55.22175020779139,
+    "mae": 44.39874138992824,
+    "r2": 0.4480811327046653
+  },
+  "dataset": "sklearn_diabetes",
+  "task": "regression",
+  "experiment": "main"
+}

@@ -1,0 +1,21 @@
+{
+  "model": "RandomForest",
+  "seed": 1,
+  "n_train": 3341,
+  "n_test": 836,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.3794212000211701,
+  "predict_time_s": 0.024875900009647012,
+  "total_time_s": 0.4042971000308171,
+  "metrics": {
+    "rmse": 2.3097532180364344,
+    "mae": 1.640968899521531,
+    "r2": 0.45514015690039533
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "missing",
+  "level": 0.15,
+  "missing_share_train": 0.149131996408261
+}

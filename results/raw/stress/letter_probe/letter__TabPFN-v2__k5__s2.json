@@ -1,0 +1,22 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 2,
+  "n_train": 400,
+  "n_test": 100,
+  "n_features": 16,
+  "status": "ok",
+  "fit_time_s": 0.3454475000035018,
+  "predict_time_s": 12.959214700036682,
+  "total_time_s": 13.304662200040184,
+  "metrics": {
+    "accuracy": 0.97,
+    "f1": 0.9699614890885752,
+    "f1_macro": 0.9699614890885752,
+    "roc_auc": 0.999625,
+    "log_loss": 0.0728285014629364
+  },
+  "dataset": "letter",
+  "task": "multiclass",
+  "experiment": "letter_probe",
+  "level": 5
+}

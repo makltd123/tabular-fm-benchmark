@@ -1,0 +1,22 @@
+{
+  "model": "TabICL-v2",
+  "seed": 0,
+  "n_train": 250,
+  "n_test": 295,
+  "n_features": 9,
+  "status": "ok",
+  "fit_time_s": 0.6165350000374019,
+  "predict_time_s": 4.711473999894224,
+  "total_time_s": 5.328008999931626,
+  "metrics": {
+    "accuracy": 0.5423728813559322,
+    "f1": 0.5097633256201032,
+    "f1_macro": 0.5097633256201032,
+    "roc_auc": 0.7473184965574154,
+    "log_loss": 0.9028968811035156
+  },
+  "dataset": "cmc",
+  "task": "multiclass",
+  "experiment": "tiny_train",
+  "level": 250
+}

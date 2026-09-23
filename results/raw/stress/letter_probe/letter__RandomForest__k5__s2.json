@@ -1,0 +1,22 @@
+{
+  "model": "RandomForest",
+  "seed": 2,
+  "n_train": 400,
+  "n_test": 100,
+  "n_features": 16,
+  "status": "ok",
+  "fit_time_s": 0.1723876999458298,
+  "predict_time_s": 0.025739000062458217,
+  "total_time_s": 0.19812670000828803,
+  "metrics": {
+    "accuracy": 0.92,
+    "f1": 0.9186605623531319,
+    "f1_macro": 0.9186605623531319,
+    "roc_auc": 0.9952500000000001,
+    "log_loss": 0.2793055296362297
+  },
+  "dataset": "letter",
+  "task": "multiclass",
+  "experiment": "letter_probe",
+  "level": 5
+}

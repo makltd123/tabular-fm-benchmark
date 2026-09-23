@@ -1,0 +1,25 @@
+dataset,task,metric,best_foundation,best_foundation_value,best_classic,best_classic_value,delta,delta_unit,TabPFN-v2_vs_best_classic,TabICL-v2_vs_best_classic
+sklearn_diabetes,regression,rmse,TabICL-v2,55.981,CatBoost,58.312,3.9976,% ошибки,2.5813,3.9976
+sklearn_diabetes,regression,mae,TabPFN-v2,44.071,CatBoost,45.575,3.2995,% ошибки,3.2995,2.9308
+sklearn_diabetes,regression,r2,TabICL-v2,0.41024,CatBoost,0.36004,0.050195,R² (абс.),0.032399,0.050195
+pima_diabetes,binary,accuracy,TabPFN-v2,0.76623,CatBoost,0.77489,-0.8658,п.п.,-0.8658,-1.0823
+pima_diabetes,binary,f1,TabPFN-v2,0.62152,CatBoost,0.63206,-1.0539,п.п.,-1.0539,-1.3249
+pima_diabetes,binary,roc_auc,TabPFN-v2,0.84278,CatBoost,0.83222,1.0556,п.п.,1.0556,0.82716
+cmc,multiclass,accuracy,TabICL-v2,0.55254,CatBoost,0.55367,-0.11299,п.п.,-0.56497,-0.11299
+cmc,multiclass,f1,TabICL-v2,0.52739,CatBoost,0.52576,0.16375,п.п.,-0.30718,0.16375
+cmc,multiclass,roc_auc,TabICL-v2,0.75302,CatBoost,0.74647,0.65559,п.п.,0.36329,0.65559
+credit_g,binary,accuracy,TabPFN-v2,0.77333,RandomForest,0.76167,1.1667,п.п.,1.1667,0.33333
+credit_g,binary,f1,TabPFN-v2,0.54771,RandomForest,0.52222,2.549,п.п.,2.549,2.4827
+credit_g,binary,roc_auc,TabICL-v2,0.7956,RandomForest,0.79389,0.17063,п.п.,-0.66667,0.17063
+yeast,multiclass,accuracy,TabPFN-v2,0.60943,RandomForest,0.59708,1.2346,п.п.,1.2346,1.2346
+yeast,multiclass,f1,TabPFN-v2,0.5437,CatBoost,0.48438,5.9315,п.п.,5.9315,2.4949
+yeast,multiclass,roc_auc,TabICL-v2,0.90581,CatBoost,0.8932,1.2611,п.п.,0.7591,1.2611
+abalone,regression,rmse,TabICL-v2,2.0618,XGBoost,2.1771,5.2994,% ошибки,2.179,5.2994
+abalone,regression,mae,TabICL-v2,1.4358,XGBoost,1.5133,5.12,% ошибки,3.7741,5.12
+abalone,regression,r2,TabICL-v2,0.6117,XGBoost,0.56653,0.04517,R² (абс.),0.019067,0.04517
+ozone_level_8hr,binary,accuracy,TabPFN-v2,0.95003,XGBoost,0.94609,0.39448,п.п.,0.39448,0.065746
+ozone_level_8hr,binary,f1,TabPFN-v2,0.44672,XGBoost,0.37675,6.9968,п.п.,6.9968,3.9577
+ozone_level_8hr,binary,roc_auc,TabICL-v2,0.94441,XGBoost,0.93454,0.98684,п.п.,0.42763,0.98684
+us_crime,regression,rmse,TabICL-v2,0.13359,CatBoost,0.13778,3.0428,% ошибки,0.87829,3.0428
+us_crime,regression,mae,TabICL-v2,0.087701,CatBoost,0.090944,3.5649,% ошибки,2.6759,3.5649
+us_crime,regression,r2,TabICL-v2,0.671,CatBoost,0.65039,0.020616,R² (абс.),0.0055167,0.020616

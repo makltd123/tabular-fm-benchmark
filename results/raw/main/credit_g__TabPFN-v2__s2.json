@@ -1,0 +1,22 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 2,
+  "n_train": 800,
+  "n_test": 200,
+  "n_features": 20,
+  "status": "ok",
+  "fit_time_s": 0.29454070003703237,
+  "predict_time_s": 27.23741429997608,
+  "total_time_s": 27.531955000013113,
+  "metrics": {
+    "accuracy": 0.73,
+    "f1": 0.4489795918367347,
+    "f1_macro": 0.6350858224084336,
+    "roc_auc": 0.7153571428571429,
+    "pr_auc": 0.5645631635237582,
+    "log_loss": 0.5604188442230225
+  },
+  "dataset": "credit_g",
+  "task": "binary",
+  "experiment": "main"
+}

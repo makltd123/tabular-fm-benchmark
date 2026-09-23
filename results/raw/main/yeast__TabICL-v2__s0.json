@@ -1,0 +1,21 @@
+{
+  "model": "TabICL-v2",
+  "seed": 0,
+  "n_train": 1187,
+  "n_test": 297,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.6257849000394344,
+  "predict_time_s": 13.259346200036816,
+  "total_time_s": 13.88513110007625,
+  "metrics": {
+    "accuracy": 0.6296296296296297,
+    "f1": 0.591967419035718,
+    "f1_macro": 0.591967419035718,
+    "roc_auc": 0.9084566261912738,
+    "log_loss": 0.9824512600898743
+  },
+  "dataset": "yeast",
+  "task": "multiclass",
+  "experiment": "main"
+}

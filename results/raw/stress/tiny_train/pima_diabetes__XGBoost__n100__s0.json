@@ -1,0 +1,35 @@
+{
+  "model": "XGBoost",
+  "seed": 0,
+  "n_train": 100,
+  "n_test": 154,
+  "n_features": 8,
+  "best_params": {
+    "colsample_bytree": 0.9827081102599635,
+    "learning_rate": 0.07400043706936324,
+    "max_depth": 8,
+    "min_child_weight": 4.939890590679931,
+    "n_estimators": 695,
+    "reg_alpha": 0.08550088256963294,
+    "reg_lambda": 0.186880998419379,
+    "subsample": 0.8031966070639622
+  },
+  "cv_best_score": -0.4861691892147064,
+  "refit_time_s": 0.5046873092651367,
+  "status": "ok",
+  "fit_time_s": 28.687735100043938,
+  "predict_time_s": 0.004273399943485856,
+  "total_time_s": 28.692008499987423,
+  "metrics": {
+    "accuracy": 0.7142857142857143,
+    "f1": 0.5510204081632653,
+    "f1_macro": 0.6707482993197278,
+    "roc_auc": 0.7772222222222221,
+    "pr_auc": 0.6068436700303774,
+    "log_loss": 0.5952762961387634
+  },
+  "dataset": "pima_diabetes",
+  "task": "binary",
+  "experiment": "tiny_train",
+  "level": 100
+}

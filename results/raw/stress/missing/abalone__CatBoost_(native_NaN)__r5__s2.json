@@ -1,0 +1,29 @@
+{
+  "model": "CatBoost (native NaN)",
+  "seed": 2,
+  "n_train": 3341,
+  "n_test": 836,
+  "n_features": 8,
+  "best_params": {
+    "bagging_temperature": 0.43599490214200376,
+    "depth": 4,
+    "iterations": 734,
+    "l2_leaf_reg": 8.866058887771798,
+    "learning_rate": 0.05200357424697764,
+    "random_strength": 0.4375955271336427
+  },
+  "status": "ok",
+  "fit_time_s": 8.843001200002618,
+  "predict_time_s": 0.0022908999817445874,
+  "total_time_s": 8.845292099984363,
+  "metrics": {
+    "rmse": 2.364789789691497,
+    "mae": 1.5998041858238436,
+    "r2": 0.5441944965367189
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "missing",
+  "level": 0.05,
+  "missing_share_train": 0.05208021550434002
+}

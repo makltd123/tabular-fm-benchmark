@@ -1,0 +1,32 @@
+{
+  "model": "CatBoost",
+  "seed": 1,
+  "n_train": 614,
+  "n_test": 154,
+  "n_features": 8,
+  "best_params": {
+    "bagging_temperature": 0.8813418296340111,
+    "depth": 4,
+    "iterations": 538,
+    "l2_leaf_reg": 3.148538945499689,
+    "learning_rate": 0.012852859155406798,
+    "random_strength": 3.7488921701754476
+  },
+  "status": "ok",
+  "fit_time_s": 0.6099842999828979,
+  "predict_time_s": 0.0011886999709531665,
+  "total_time_s": 0.6111729999538511,
+  "metrics": {
+    "accuracy": 0.7142857142857143,
+    "f1": 0.47619047619047616,
+    "f1_macro": 0.6398809523809523,
+    "roc_auc": 0.7707407407407407,
+    "pr_auc": 0.6170836836348662,
+    "log_loss": 0.5423024732975323
+  },
+  "dataset": "pima_diabetes",
+  "task": "binary",
+  "experiment": "missing",
+  "level": 0.3,
+  "missing_share_train": 0.30496742671009774
+}

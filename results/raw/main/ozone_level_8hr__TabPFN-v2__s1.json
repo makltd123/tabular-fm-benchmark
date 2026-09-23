@@ -1,0 +1,22 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 1,
+  "n_train": 2027,
+  "n_test": 507,
+  "n_features": 72,
+  "status": "ok",
+  "fit_time_s": 0.9615567000582814,
+  "predict_time_s": 437.471613099915,
+  "total_time_s": 438.43316979997326,
+  "metrics": {
+    "accuracy": 0.9506903353057199,
+    "f1": 0.4897959183673469,
+    "f1_macro": 0.7319445913080258,
+    "roc_auc": 0.9438157894736843,
+    "pr_auc": 0.554015933351597,
+    "log_loss": 0.13051660358905792
+  },
+  "dataset": "ozone_level_8hr",
+  "task": "binary",
+  "experiment": "main"
+}

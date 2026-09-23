@@ -1,0 +1,22 @@
+{
+  "model": "RandomForest",
+  "seed": 1,
+  "n_train": 800,
+  "n_test": 200,
+  "n_features": 20,
+  "status": "ok",
+  "fit_time_s": 0.24087970005348325,
+  "predict_time_s": 0.02670259994920343,
+  "total_time_s": 0.2675823000026867,
+  "metrics": {
+    "accuracy": 0.795,
+    "f1": 0.5858585858585859,
+    "f1_macro": 0.7248229806369342,
+    "roc_auc": 0.804702380952381,
+    "pr_auc": 0.6763798039017379,
+    "log_loss": 0.4823024662159339
+  },
+  "dataset": "credit_g",
+  "task": "binary",
+  "experiment": "main"
+}

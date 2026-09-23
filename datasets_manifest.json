@@ -1,0 +1,427 @@
+{
+  "description": "Датасеты бенчмарка TabPFN v2 / TabICL v2 vs XGBoost / CatBoost / RandomForest",
+  "split": "случайный train/test 80/20, стратифицированный для классификации; временной компоненты в выбранных данных нет",
+  "model_limits": {
+    "TabPFN-v2": {
+      "max_samples": 10000,
+      "max_features": 500,
+      "max_classes": 10
+    },
+    "TabICL-v2": {
+      "recommended_train_samples": "300-48000",
+      "recommended_features": "2-100",
+      "max_classes_native": 10,
+      "many_classes": "support_many_classes=True (иерархическая схема)"
+    }
+  },
+  "coverage_of_tz_categories": {
+    "small": [
+      "pima_diabetes",
+      "sklearn_diabetes"
+    ],
+    "medium": [
+      "credit_g",
+      "ozone_level_8hr",
+      "cmc",
+      "abalone",
+      "yeast",
+      "us_crime"
+    ],
+    "high-dimensional": [
+      "us_crime"
+    ],
+    "imbalanced": [
+      "ozone_level_8hr",
+      "yeast"
+    ],
+    "binary": [
+      "pima_diabetes",
+      "credit_g",
+      "ozone_level_8hr"
+    ],
+    "multiclass": [
+      "cmc",
+      "yeast"
+    ],
+    "regression": [
+      "sklearn_diabetes",
+      "abalone",
+      "us_crime"
+    ],
+    "categorical-heavy": [
+      "credit_g",
+      "cmc"
+    ],
+    "real-missing-values": [
+      "us_crime"
+    ]
+  },
+  "datasets": [
+    {
+      "name": "pima_diabetes",
+      "in_main_benchmark": true,
+      "source": "openml",
+      "url": "https://www.openml.org/d/37",
+      "openml_id": 37,
+      "openml_version": 1,
+      "licence": "Public",
+      "task": "binary",
+      "n_rows": 768,
+      "n_features": 8,
+      "n_categorical": 0,
+      "categorical_columns": [],
+      "n_missing_cells": 0,
+      "n_train": 614,
+      "roles": [
+        "small",
+        "binary"
+      ],
+      "description": "Pima Indians Diabetes: медицинские показатели, предсказание диабета.",
+      "n_classes": 2,
+      "class_counts": [
+        500,
+        268
+      ],
+      "minority_share": 0.349,
+      "original_labels": [
+        "tested_negative",
+        "tested_positive"
+      ],
+      "minority_label": "tested_positive",
+      "within_tabpfn_v2_limits": true
+    },
+    {
+      "name": "credit_g",
+      "in_main_benchmark": true,
+      "source": "openml",
+      "url": "https://www.openml.org/d/31",
+      "openml_id": 31,
+      "openml_version": 1,
+      "licence": "Public",
+      "task": "binary",
+      "n_rows": 1000,
+      "n_features": 20,
+      "n_categorical": 13,
+      "categorical_columns": [
+        "checking_status",
+        "credit_history",
+        "purpose",
+        "savings_status",
+        "employment",
+        "personal_status",
+        "other_parties",
+        "property_magnitude",
+        "other_payment_plans",
+        "housing",
+        "job",
+        "own_telephone",
+        "foreign_worker"
+      ],
+      "n_missing_cells": 0,
+      "n_train": 800,
+      "roles": [
+        "medium",
+        "binary",
+        "categorical-heavy"
+      ],
+      "description": "German Credit: кредитный риск, 13 из 20 признаков категориальные.",
+      "n_classes": 2,
+      "class_counts": [
+        300,
+        700
+      ],
+      "minority_share": 0.3,
+      "original_labels": [
+        "bad",
+        "good"
+      ],
+      "minority_label": "bad",
+      "within_tabpfn_v2_limits": true
+    },
+    {
+      "name": "ozone_level_8hr",
+      "in_main_benchmark": true,
+      "source": "openml",
+      "url": "https://www.openml.org/d/1487",
+      "openml_id": 1487,
+      "openml_version": 1,
+      "licence": "Public",
+      "task": "binary",
+      "n_rows": 2534,
+      "n_features": 72,
+      "n_categorical": 0,
+      "categorical_columns": [],
+      "n_missing_cells": 0,
+      "n_train": 2027,
+      "roles": [
+        "medium",
+        "binary",
+        "imbalanced"
+      ],
+      "description": "Ozone Level (8-hour peak): ~6.3% положительного класса, 72 признака.",
+      "n_classes": 2,
+      "class_counts": [
+        2374,
+        160
+      ],
+      "minority_share": 0.0631,
+      "original_labels": [
+        "1",
+        "2"
+      ],
+      "minority_label": "2",
+      "within_tabpfn_v2_limits": true
+    },
+    {
+      "name": "cmc",
+      "in_main_benchmark": true,
+      "source": "openml",
+      "url": "https://www.openml.org/d/23",
+      "openml_id": 23,
+      "openml_version": 1,
+      "licence": "Public",
+      "task": "multiclass",
+      "n_rows": 1473,
+      "n_features": 9,
+      "n_categorical": 7,
+      "categorical_columns": [
+        "Wifes_education",
+        "Husbands_education",
+        "Wifes_religion",
+        "Wifes_now_working%3F",
+        "Husbands_occupation",
+        "Standard-of-living_index",
+        "Media_exposure"
+      ],
+      "n_missing_cells": 0,
+      "n_train": 1178,
+      "roles": [
+        "medium",
+        "multiclass",
+        "categorical-heavy"
+      ],
+      "description": "Contraceptive Method Choice: 3 класса, смешанные категориальные/числовые признаки.",
+      "n_classes": 3,
+      "class_counts": [
+        629,
+        333,
+        511
+      ],
+      "minority_share": 0.2261,
+      "original_labels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "minority_label": "2",
+      "within_tabpfn_v2_limits": true
+    },
+    {
+      "name": "sklearn_diabetes",
+      "in_main_benchmark": true,
+      "source": "sklearn",
+      "url": "sklearn.datasets.load_diabetes",
+      "openml_id": null,
+      "openml_version": null,
+      "licence": "BSD-3-Clause (scikit-learn); исходные данные Efron et al. 2004",
+      "task": "regression",
+      "n_rows": 442,
+      "n_features": 10,
+      "n_categorical": 0,
+      "categorical_columns": [],
+      "n_missing_cells": 0,
+      "n_train": 353,
+      "roles": [
+        "small",
+        "regression"
+      ],
+      "description": "sklearn diabetes: прогрессирование диабета через год, 442 строки.",
+      "target_mean": 152.13348416289594,
+      "target_std": 77.00574586945044,
+      "within_tabpfn_v2_limits": true
+    },
+    {
+      "name": "abalone",
+      "in_main_benchmark": true,
+      "source": "openml",
+      "url": "https://www.openml.org/d/42726",
+      "openml_id": 42726,
+      "openml_version": 5,
+      "licence": "Public",
+      "task": "regression",
+      "n_rows": 4177,
+      "n_features": 8,
+      "n_categorical": 1,
+      "categorical_columns": [
+        "Sex"
+      ],
+      "n_missing_cells": 0,
+      "n_train": 3341,
+      "roles": [
+        "medium",
+        "regression",
+        "categorical"
+      ],
+      "description": "Abalone: возраст моллюска (число колец) по физическим измерениям, признак Sex категориальный.",
+      "target_mean": 9.933684462532918,
+      "target_std": 3.2237830658212117,
+      "within_tabpfn_v2_limits": true
+    },
+    {
+      "name": "yeast",
+      "in_main_benchmark": true,
+      "source": "openml",
+      "url": "https://www.openml.org/d/181",
+      "openml_id": 181,
+      "openml_version": 1,
+      "licence": "Public",
+      "task": "multiclass",
+      "n_rows": 1484,
+      "n_features": 8,
+      "n_categorical": 0,
+      "categorical_columns": [],
+      "n_missing_cells": 0,
+      "n_train": 1187,
+      "roles": [
+        "medium",
+        "multiclass",
+        "imbalanced"
+      ],
+      "description": "Yeast: локализация белка, 10 классов (= лимит TabPFN v2), классы от 463 до 5 объектов.",
+      "n_classes": 10,
+      "class_counts": [
+        463,
+        5,
+        35,
+        44,
+        51,
+        163,
+        244,
+        429,
+        20,
+        30
+      ],
+      "minority_share": 0.0034,
+      "original_labels": [
+        "CYT",
+        "ERL",
+        "EXC",
+        "ME1",
+        "ME2",
+        "ME3",
+        "MIT",
+        "NUC",
+        "POX",
+        "VAC"
+      ],
+      "minority_label": "ERL",
+      "within_tabpfn_v2_limits": true
+    },
+    {
+      "name": "us_crime",
+      "in_main_benchmark": true,
+      "source": "openml",
+      "url": "https://www.openml.org/d/315",
+      "openml_id": 315,
+      "openml_version": 1,
+      "licence": "Public",
+      "task": "regression",
+      "n_rows": 1994,
+      "n_features": 122,
+      "n_categorical": 0,
+      "categorical_columns": [],
+      "n_missing_cells": 36851,
+      "n_train": 1595,
+      "roles": [
+        "medium",
+        "high-dimensional",
+        "regression",
+        "real-missing-values"
+      ],
+      "description": "Communities and Crime (UCI): уровень насильственных преступлений по данным переписи; 122 признака, в 23 колонках до 84% пропусков. Служебные колонки (штат, округ, название общины, номер фолда) удалены как непредсказательные.",
+      "target_mean": 0.2379789368104313,
+      "target_std": 0.23292647291156512,
+      "within_tabpfn_v2_limits": true
+    },
+    {
+      "name": "letter",
+      "in_main_benchmark": false,
+      "source": "openml",
+      "url": "https://www.openml.org/d/6",
+      "openml_id": 6,
+      "openml_version": 1,
+      "licence": "Public",
+      "task": "multiclass",
+      "n_rows": 20000,
+      "n_features": 16,
+      "n_categorical": 0,
+      "categorical_columns": [],
+      "n_missing_cells": 0,
+      "n_train": 16000,
+      "roles": [
+        "many-classes-probe"
+      ],
+      "description": "Letter recognition: 26 классов, 16 признаков. Используется только в стресс-тесте числа классов.",
+      "n_classes": 26,
+      "class_counts": [
+        789,
+        766,
+        736,
+        805,
+        768,
+        775,
+        773,
+        734,
+        755,
+        747,
+        739,
+        761,
+        792,
+        783,
+        753,
+        803,
+        783,
+        758,
+        748,
+        796,
+        813,
+        764,
+        752,
+        787,
+        786,
+        734
+      ],
+      "minority_share": 0.0367,
+      "original_labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "minority_label": "H",
+      "within_tabpfn_v2_limits": false
+    }
+  ]
+}

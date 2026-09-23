@@ -1,0 +1,32 @@
+{
+  "model": "XGBoost",
+  "seed": 0,
+  "n_train": 50,
+  "n_test": 836,
+  "n_features": 8,
+  "best_params": {
+    "colsample_bytree": 0.707131497257335,
+    "learning_rate": 0.012438088147597642,
+    "max_depth": 4,
+    "min_child_weight": 5.436603603747698,
+    "n_estimators": 248,
+    "reg_alpha": 0.006254152586876391,
+    "reg_lambda": 0.3713164249534622,
+    "subsample": 0.5469702553792208
+  },
+  "cv_best_score": -3.1931325625286213,
+  "refit_time_s": 0.20569205284118652,
+  "status": "ok",
+  "fit_time_s": 29.470029600081034,
+  "predict_time_s": 0.004695500014349818,
+  "total_time_s": 29.474725100095384,
+  "metrics": {
+    "rmse": 2.649288136291747,
+    "mae": 1.9958160955940136,
+    "r2": 0.353726835996914
+  },
+  "dataset": "abalone",
+  "task": "regression",
+  "experiment": "tiny_train",
+  "level": 50
+}

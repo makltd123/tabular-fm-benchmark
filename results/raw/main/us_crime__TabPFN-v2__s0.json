@@ -1,0 +1,19 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 0,
+  "n_train": 1595,
+  "n_test": 399,
+  "n_features": 122,
+  "status": "ok",
+  "fit_time_s": 2.7565524999517947,
+  "predict_time_s": 517.9419001000933,
+  "total_time_s": 520.6984526000451,
+  "metrics": {
+    "rmse": 0.13808761239987066,
+    "mae": 0.09300502104717388,
+    "r2": 0.6792616406682378
+  },
+  "dataset": "us_crime",
+  "task": "regression",
+  "experiment": "main"
+}

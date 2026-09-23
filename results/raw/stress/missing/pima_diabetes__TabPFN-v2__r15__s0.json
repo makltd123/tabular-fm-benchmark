@@ -1,0 +1,24 @@
+{
+  "model": "TabPFN-v2",
+  "seed": 0,
+  "n_train": 614,
+  "n_test": 154,
+  "n_features": 8,
+  "status": "ok",
+  "fit_time_s": 0.1909886000212282,
+  "predict_time_s": 13.028678599977866,
+  "total_time_s": 13.219667199999094,
+  "metrics": {
+    "accuracy": 0.7792207792207793,
+    "f1": 0.6530612244897959,
+    "f1_macro": 0.745578231292517,
+    "roc_auc": 0.8705555555555556,
+    "pr_auc": 0.7626791154845681,
+    "log_loss": 0.42899075150489807
+  },
+  "dataset": "pima_diabetes",
+  "task": "binary",
+  "experiment": "missing",
+  "level": 0.15,
+  "missing_share_train": 0.15166938110749187
+}
