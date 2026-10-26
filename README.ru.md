@@ -100,3 +100,7 @@ py -3.14 -m venv .venv
 - **Намеренно не использовались** из-за некоммерческих лицензий: TabFM (Google) и TabPFN
   2.5 / 2.6 / 3 / 3.5. Пакет `tabpfn` 9.x по умолчанию загружает TabPFN-3.5, поэтому в коде
   версия v2 закреплена явно: `create_default_for_version(ModelVersion.V2)`.
+
+---
+
+Автор: [Федор Маковский](https://fedor.alqira.ru), ИИ-разработчик. Услуги и проекты с цифрами качества: [fedor.alqira.ru](https://fedor.alqira.ru).

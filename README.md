@@ -99,3 +99,7 @@ Makovskiy (see [LICENSE](LICENSE)).
 - **Deliberately not used**, because of non-commercial licenses: TabFM (Google) and TabPFN
   2.5 / 2.6 / 3 / 3.5. Note that `tabpfn` 9.x loads TabPFN-3.5 by default, so the code pins
   v2 explicitly with `create_default_for_version(ModelVersion.V2)`.
+
+---
+
+Author: [Fedor Makovskiy](https://fedor.alqira.ru), AI developer. Services and projects with quality metrics: [fedor.alqira.ru](https://fedor.alqira.ru).
